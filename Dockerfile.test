@@ -1,0 +1,10 @@
+FROM python:3.9.7
+
+WORKDIR /Users/User/Desktop
+
+COPY test_assignment.py .
+COPY error_assignment.py .
+COPY assignment.py .
+
+
+CMD [ "python" ,"./test_assignment.py"]
